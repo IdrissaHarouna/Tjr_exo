@@ -1,22 +1,22 @@
  def signup
- puts "Veuillez définir un mot de passe :"
+ puts "Veuillez définir votre code :"
  print "> "
  password = gets.chomp
  return password
 end
 
 def login(password)
- puts "Entrer votre mot de passe : "
+ puts "Entrer votre code: "
  print "> "
  passwd = gets.chomp
  
  while passwd != password
-  puts "Mot de passe invalide! Veuillez entrer votre mot de passe:"
+  puts "le code invalide! Veuillez entrer votre code:"
   print "> "
   passwd = gets.chomp
  end
  
- puts "Mot de passe correct."
+ puts "Code correct."
 end 
 
 def welcome_screen
@@ -33,5 +33,5 @@ login(password)
 welcome_screen
 end
 
-perform
+
 

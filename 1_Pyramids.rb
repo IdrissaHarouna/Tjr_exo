@@ -11,7 +11,6 @@ def full_pyramid
   end
 end
 
-
 def wtf_pyramid
   puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
     print ">"
@@ -38,6 +37,6 @@ def wtf_pyramid
 
 end
 
-wtf_pyramid
+
 
 
